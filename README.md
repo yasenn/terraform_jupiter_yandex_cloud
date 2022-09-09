@@ -8,3 +8,5 @@
 ### 6. terraform apply -var-file=secret.tfvars
 
 ## In output you see external ip address - open it in browser. Default password is "spam-and-eggs"
+
+### terraform destroy -var-file=secret.tfvars - delete all resources in yandex cloud then you do not need it
