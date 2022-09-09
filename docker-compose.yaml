@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  jupyter:
+    container_name: jupyter
+    image: "jupyter/minimal-notebook"
+    ports:
+      - "80:8888"
+    command: start-notebook.sh --ServerApp.password='sha256:128c5116bc40:94cfe1eef8703b657a7ef28af741fa05465c7a7355645a65040bd51bccc6039b'
+    restart: always
