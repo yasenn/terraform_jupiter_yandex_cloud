@@ -2,8 +2,9 @@
 
 ### 1. git clone repo
 ### 2. edit secrets.tfvars and fill your credentials
-### 3. terrafrom init
-### 4. terraform plan 
-### 5. terraform apply -var-file=secret.tfvars
+### 3. edit cloud_config.yaml and add your ssh public key if you need ssh to vm
+### 4. terrafrom init
+### 5. terraform plan 
+### 6. terraform apply -var-file=secret.tfvars
 
 ## In output you see external ip address - open it in browser. Default password is "spam-and-eggs"
